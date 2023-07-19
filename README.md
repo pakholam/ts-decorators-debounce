@@ -10,7 +10,7 @@ async onClickMe(arg0: any): Promise<void> {
 }
 ```
 ## Code
-···typescript
+```typescript
 // 函数防抖
 export type CallbackFunction = (...args: any[]) => void;
 
