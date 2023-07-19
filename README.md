@@ -11,7 +11,7 @@ async onClickMe(arg0: any): Promise<void> {
 ```
 ## Code
 ```typescript
-// 函数防抖
+// Debounce.ts
 export type CallbackFunction = (...args: any[]) => void;
 
 export type MethodDecorators = (
